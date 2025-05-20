@@ -1,0 +1,13 @@
+#landing {
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.duck {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 300;
+}
+.btn {
+  background-color: gold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
