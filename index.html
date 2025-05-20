@@ -13,16 +13,40 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo -->
         <a class="navbar-brand" href="#">
           <img
             src="/images/BannerLogo.png"
             alt="Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             class="d-inline-block align-text-top"
           />
         </a>
+
+        <!-- Social Icons -->
+        <div class="d-flex align-items-center ms-auto">
+          <a
+            class="me-3"
+            href="https://www.facebook.com/ridendrync"
+            target="_blank"
+          >
+            <img
+              src="images/Facebook_Logo_Primary.png"
+              alt="Facebook"
+              height="30"
+            />
+          </a>
+          <a href="https://www.instagram.com/ridendry__tm/" target="_blank">
+            <img
+              src="images/Instagram_Glyph_Gradient.svg"
+              alt="Instagram"
+              height="30"
+            />
+          </a>
+        </div>
+        <button class="btn2 mt-3">Buy Now</button>
       </div>
     </nav>
 
@@ -242,9 +266,7 @@
             ></textarea>
           </div>
           <div class="col-12 text-center">
-            <button type="submit" class="btn btn-primary px-5">
-              Send Message
-            </button>
+            <button type="submit" class="btn px-5">Send Message</button>
           </div>
         </form>
       </div>
@@ -252,12 +274,34 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <Footer>
+    <footer>
       <div class="container text-center">
+        <p class="leadf">Follow Us</p>
+        <div class="mb-3">
+          <a
+            class="footer-facebook mx-2"
+            href="https://www.facebook.com/ridendrync"
+          >
+            <img
+              src="images/Facebook_Logo_Primary.png"
+              alt="Byte Monster facebook"
+              height="30"
+            />
+          </a>
+          <a
+            class="footer-instagram mx-2"
+            href="https://www.instagram.com/ridendry__tm/"
+          >
+            <img
+              src="images/Instagram_Glyph_Gradient.svg"
+              alt="Byte Monster Instagram"
+              height="30"
+            />
+          </a>
+        </div>
         <p class="leadf"></p>
         <p class="leadf">&copy; 2023 Ride N Dry. All rights reserved.</p>
       </div>
-
-    </Footer>
+    </footer>
   </body>
 </html>
