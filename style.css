@@ -1,6 +1,36 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-italic";
+  src: url(font/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Roboto-black";
+  src: url(font/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "LeagueGothic";
+  src: url(font/LeagueGothic-Regular.ttf);
+}
+@font-face {
+  font-family: "LeagueGothic-condensed";
+  src: url(font/LeagueGothic-Condensed.ttf);
+}
+@font-face {
+  font-family: "LeagueGothic-italic";
+  src: url(font/LeagueGothic-Italic.ttf);
+}
+
 #landing {
-  background-color: whitesmoke;
+  background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
 }
 .duck {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -10,4 +40,28 @@
 .btn {
   background-color: gold;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family: "LeagueGothic", sans-serif !important;
+  padding: 10px 30px; /* top/bottom, left/right */
+  font-size: 1.5rem; /* increase text size */
+  border-radius: 20px; /* optional: rounder corners */
+}
+#video {
+  background-color: #eeeeee;
+  font-family: "LeagueGothic", sans-serif !important;
+}
+.heading {
+  font-family: "LeagueGothic", sans-serif !important;
+  font-size: 70px;
+  letter-spacing: 0em;
+}
+
+.lead {
+  font-family: "LeagueGothic", sans-serif !important;
+  letter-spacing: 0.05em;
+  font-size: 30px;
+}
+.leadv {
+  font-family: "LeagueGothic", sans-serif !important;
+  letter-spacing: 0.05em;
+  font-size: 20px;
 }
