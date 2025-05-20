@@ -45,6 +45,16 @@
   font-size: 1.5rem; /* increase text size */
   border-radius: 20px; /* optional: rounder corners */
 }
+
+.btn2{
+  background-color: gold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family: "LeagueGothic", sans-serif !important;
+  padding: 10px 30px; /* top/bottom, left/right */
+  font-size: 1.5rem; /* increase text size */
+  border-radius: 20px; /* optional: rounder corners */
+  display: inline-block;
+}
 #video {
   background-color: #eeeeee;
   font-family: "LeagueGothic", sans-serif !important;
@@ -64,4 +74,35 @@
   font-family: "LeagueGothic", sans-serif !important;
   letter-spacing: 0.05em;
   font-size: 20px;
+}
+.leadf {
+  font-family: "LeagueGothic", sans-serif !important;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+}
+.card {
+  box-shadow: 0 0 10px rgba(.3, 0, 0, 0.7);
+
+}
+.card-title {
+  font-family: "LeagueGothic", sans-serif !important;
+  font-size: 30px;
+}
+.card-text {
+  font-family: "LeagueGothic", sans-serif !important;
+  font-size: 20px;
+}
+
+
+/* Animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 1s ease-in-out infinite;
 }
