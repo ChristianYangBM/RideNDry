@@ -3,7 +3,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require '../vendor/autoload.php';
-$config = require dirname(__DIR__) . '/private/mail_config.php';
+$config = require '../private/mail_config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = htmlspecialchars($_POST['name'] ?? '');
