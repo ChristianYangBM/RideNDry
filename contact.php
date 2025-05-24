@@ -1,6 +1,5 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
 require '../vendor/autoload.php';
 $config = require '../private/mail_config.php';
@@ -16,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $mail = new PHPMailer(true);
+    $mail = new PHPMailer;
 
     try {
         $mail->isSMTP();
