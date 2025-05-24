@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '/vendor/autoload.php';
+require '../public_html/vendor/autoload.php';
 $config = require "../private/mail_config.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -37,3 +37,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Mailer Error: " . $mail->ErrorInfo;
     }
 }
+
