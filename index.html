@@ -15,7 +15,7 @@
     <meta name="author" content="RideNDry Team" />
 
     <!-- Favicon (Optional) -->
-    <link rel="icon" href="/images/BannerLogo.png" type="image/x-icon" />
+    <link rel="icon" href="images/BannerLogo.png" type="image/x-icon" />
 
     <title>RideNDry® – Dashboard Covers for Off-Road Adventures</title>
     <link
@@ -31,38 +31,26 @@
         <!-- Logo -->
         <a class="navbar-brand" href="#">
           <img
-            src="/images/BannerLogo.png"
+            src="images/BannerLogo.png"
             alt="Logo"
             width="120"
             height="120"
             class="d-inline-block align-text-top"
           />
         </a>
-
-        <!-- Social Icons -->
-        <div class="d-flex align-items-center ms-auto">
-          <a
-            class="me-3"
-            href="https://www.facebook.com/ridendrync"
-            target="_blank"
-          >
-            <img
-              src="images/Facebook_Logo_Primary.png"
-              alt="Facebook"
-              height="30"
-            />
-          </a>
-          <a href="https://www.instagram.com/ridendry__tm/" target="_blank">
-            <img
-              src="images/Instagram_Glyph_Gradient.svg"
-              alt="Instagram"
-              height="30"
-            />
-          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a href="disclaimer.html" class="nav-link">Disclaimer</a></li>
+            <li class="nav-item active"><a href="https://shop.ridendry.com" class="nav-link">Shop</a></li>
+            <li class="nav-item active"><a href="partners.html" class="nav-link">Partners</a></li>
+          </ul>
         </div>
-        <button class="btn2 mt-3">Buy Now</button>
       </div>
-    </nav>
+    </nav>  
 
     <!-- Landing Header -->
     <section id="landing" class="text-center py-5">
@@ -78,7 +66,10 @@
           keeps your dash and electronics safe, no matter where the trail
           leads."
         </p>
-        <button class="btn mt-3">Buy Now</button>
+        <button id="buy-button" class="btn mt-3">Buy Now</button>
+        <script>
+          $('#buy-button').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+        </script>
       </div>
     </section>
 
@@ -103,7 +94,10 @@
           @DownSouth_Adventures
         </p>
         <div>
-          <button class="btn mt-3">Buy Now</button>
+          <button id="buy-button2" class="btn mt-3">Buy Now</button>
+          <script>
+            $('#buy-button2').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+          </script>
         </div>
       </div>
     </section>
@@ -240,7 +234,10 @@
           </div>
         </div>
         <div class="text-center">
-          <button class="btn mt-3">Buy Now</button>
+          <button id="buy-button3" class="btn mt-3">Buy Now</button>
+          <script>
+            $('#buy-button3').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+          </script>
         </div>
       </div>
     </section>
@@ -248,42 +245,60 @@
     <!-- Social Media Posts -->
     <section id="social" class="py-5">
       <div class="container">
-        <h2 class="text-center mb-4">Latest on Social Media</h2>
+        <h2 class="text-center mb-4">Check us out on Social Media</h2>
         <div class="row g-4">
           <!-- Post 1 -->
-          <div class="col-md-4">
+          <div class="col-sm-6">
             <div class="card h-100">
-              <img
-                src="https://via.placeholder.com/400x200"
-                class="card-img-top"
-                alt="Post Image"
-              />
+              <blockquote 
+              class="tiktok-embed" 
+              cite="https://www.tiktok.com/@ridendry/video/7498173686755724574" 
+              data-video-id="7498173686755724574" 
+              style="max-width: 605px;min-width: 325px;" >
+               <section> 
+                <a target="_blank" title="@ridendry" href="https://www.tiktok.com/@ridendry?refer=embed">@ridendry</a> 
+                <p></p>
+                 <a target="_blank" title="♬ original sound - RideNDry®" 
+                 href="https://www.tiktok.com/music/original-sound-7498173654874819358?refer=embed">♬ original sound - RideNDry®</a> 
+                </section> 
+              </blockquote> 
+              <script async src="https://www.tiktok.com/embed.js"></script>
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
           <!-- Post 2 -->
-          <div class="col-md-4">
+          <div class="col-sm-6">
             <div class="card h-100">
-              <img
-                src="https://via.placeholder.com/400x200"
-                class="card-img-top"
-                alt="Post Image"
-              />
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- Post 3 -->
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img
-                src="https://via.placeholder.com/400x200"
-                class="card-img-top"
-                alt="Post Image"
-              />
+            <blockquote class="tiktok-embed" 
+            cite="https://www.tiktok.com/@ridendry/video/7397498711212903722" 
+            data-video-id="7397498711212903722" 
+            style="max-width: 605px;min-width: 325px;" > 
+            <section> 
+              <a target="_blank" 
+              title="@ridendry" 
+              href="https://www.tiktok.com/@ridendry?refer=embed">@ridendry</a> Jeeps are NOT waterproof! Your electrical &#38; expensive aftermarket stereo head units are not covered under warranty when they get wet!  RideNDry ™ Cover Ridendry.com 
+              <a title="ridendry" 
+              target="_blank" 
+              href="https://www.tiktok.com/tag/ridendry?refer=embed">#RideNDry</a> , 
+              <a title="jeep" target="_blank" href="https://www.tiktok.com/tag/jeep?refer=embed">#jeep</a> , 
+              <a title="jeepnation" target="_blank" 
+              href="https://www.tiktok.com/tag/jeepnation?refer=embed">#jeepnation</a> , 
+              <a title="jeepfamily" target="_blank" href="https://www.tiktok.com/tag/jeepfamily?refer=embed">#jeepfamily</a>, 
+              <a title="doorlessjeep" target="_blank" href="https://www.tiktok.com/tag/doorlessjeep?refer=embed">#doorlessjeep</a>, 
+              <a title="4x4" target="_blank" href="https://www.tiktok.com/tag/4x4?refer=embed">#4x4</a>, 
+              <a title="topless" target="_blank" href="https://www.tiktok.com/tag/topless?refer=embed">#topless</a>, 
+              <a title="mudding" target="_blank" href="https://www.tiktok.com/tag/mudding?refer=embed">#mudding</a> , 
+              <a title="4x4offroad" target="_blank" href="https://www.tiktok.com/tag/4x4offroad?refer=embed">#4x4offroad</a> , 
+              <a title="dashcover" target="_blank" href="https://www.tiktok.com/tag/dashcover?refer=embed">#dashcover</a> , 
+              <a title="raingear" target="_blank" href="https://www.tiktok.com/tag/raingear?refer=embed">#raingear</a> , 
+              <a title="carcover" target="_blank" href="https://www.tiktok.com/tag/carcover?refer=embed">#carcover</a> @RideNDry ™ 
+              <a target="_blank" title="♬ Not for everyone - TowTruckChubs" 
+              href="https://www.tiktok.com/music/Not-for-everyone-7141772173366299438?refer=embed">♬ Not for everyone - TowTruckChubs</a> 
+            </section> 
+          </blockquote> 
+          <script async src="https://www.tiktok.com/embed.js"></script>
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
@@ -297,7 +312,7 @@
     <section id="contact" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">Contact Us</h2>
-        <form class="row g-3">
+        <form action="contact.php" method="POST" class="row g-3">
           <div class="col-md-6">
             <label for="name" class="form-label">Name</label>
             <input
@@ -356,6 +371,17 @@
             <img
               src="images/Instagram_Glyph_Gradient.svg"
               alt="Byte Monster Instagram"
+              height="30"
+              width="30"
+            />
+          </a>
+          <a
+            class="footer-tiktok mx-2"
+            href="https://www.tiktok.com/@ridendry"
+          >
+            <img
+              src="images/tiktok.svg"
+              alt="Byte Monster tiktok"
               height="30"
               width="30"
             />
