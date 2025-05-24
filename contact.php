@@ -36,4 +36,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Mailer Error: " . $mail->ErrorInfo;
     }
 }
-
+?>
