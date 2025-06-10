@@ -38,16 +38,19 @@
             class="d-inline-block align-text-top"
           />
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="disclaimer.html" class="nav-link">Disclaimer</a></li>
-                <li class="nav-item active"><a href="https://shop.ridendry.com" class="nav-link">Shop</a></li>
-                <li class="nav-item active"><a href="partners.html" class="nav-link">Partners</a></li>
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a href="disclaimer.html" class="nav-link">Disclaimer</a></li>
+            <li class="nav-item active"><a href="https://shop.ridendry.com" class="nav-link">Shop</a></li>
+            <li class="nav-item active"><a href="partners.html" class="nav-link">Friends</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
+    </nav>  
     
 
     <!-- Landing Header -->
@@ -66,7 +69,7 @@
         </p>
         <button id="buy-button" class="btn mt-3">Buy Now</button>
         <script>
-          $('#buy-button').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+          document.getElementById('buy-button').onclick = function(){ window.location.href = 'https://shop.ridendry.com'; };
         </script>
       </div>
     </section>
@@ -175,7 +178,7 @@ Purchaser, to the fullest extent allowed by law agrees and covenants not to sue,
           </a>
           <a
             class="footer-instagram mx-2"
-            href="https://www.instagram.com/ridendry__tm/"
+            href="https://www.instagram.com/ridendry_tm/#"
           >
             <img
               src="images/Instagram_Glyph_Gradient.svg"
