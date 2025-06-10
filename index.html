@@ -38,15 +38,16 @@
             class="d-inline-block align-text-top"
           />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item active"><a href="disclaimer.html" class="nav-link">Disclaimer</a></li>
-            <li class="nav-item active"><a href="https://shop.ridendry.com" class="nav-link">Shop</a></li>
-            <li class="nav-item active"><a href="partners.html" class="nav-link">Partners</a></li>
+            <li class="nav-item active"><a href="https://shop.ridendry.com" class="nav-link">Dash Covers</a></li>
+            <li class="nav-item active"><a href="https://ridendry.itemorder.com/shop/home/" class="nav-link">Merch</a></li>
+            <li class="nav-item active"><a href="partners.html" class="nav-link">Friends</a></li>
           </ul>
         </div>
       </div>
@@ -68,7 +69,7 @@
         </p>
         <button id="buy-button" class="btn mt-3">Buy Now</button>
         <script>
-          $('#buy-button').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+          document.getElementById('buy-button').onclick = function(){ window.location.href = 'https://shop.ridendry.com'; };
         </script>
       </div>
     </section>
@@ -96,7 +97,7 @@
         <div>
           <button id="buy-button2" class="btn mt-3">Buy Now</button>
           <script>
-            $('#buy-button2').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+            document.getElementById('buy-button2').onclick = function(){ window.location.href = 'https://shop.ridendry.com'; };
           </script>
         </div>
       </div>
@@ -179,11 +180,10 @@
             <div class="card h-100 border-warning">
               <div class="card-body">
                 <h5 class="card-title text-warning">
-                  ⚠️ Use Only with Vinyl Windows
+                  ⚠️ Important Installation Notice
                 </h5>
                 <p class="card-text">
-                  Do <strong>not</strong> use RideNDry® Covers without vinyl
-                  windows. Visibility is required for safe operation.
+                  Use <strong>only</strong> with Vinyl Windows Attached. Failure to do so will result in improper fit.
                 </p>
               </div>
             </div>
@@ -236,7 +236,7 @@
         <div class="text-center">
           <button id="buy-button3" class="btn mt-3">Buy Now</button>
           <script>
-            $('#buy-button3').on('click', function(){ window.location = 'https://shop.ridendry.com'; });
+            document.getElementById('buy-button3').onclick = function(){ window.location.href = 'https://shop.ridendry.com'; };
           </script>
         </div>
       </div>
@@ -254,7 +254,7 @@
               class="tiktok-embed" 
               cite="https://www.tiktok.com/@ridendry/video/7498173686755724574" 
               data-video-id="7498173686755724574" 
-              style="max-width: 605px;min-width: 325px;" >
+              style="max-width: 505px;min-width: 325px;" >
                <section> 
                 <a target="_blank" title="@ridendry" href="https://www.tiktok.com/@ridendry?refer=embed">@ridendry</a> 
                 <p></p>
@@ -274,7 +274,7 @@
             <blockquote class="tiktok-embed" 
             cite="https://www.tiktok.com/@ridendry/video/7397498711212903722" 
             data-video-id="7397498711212903722" 
-            style="max-width: 605px;min-width: 325px;" > 
+            style="max-width: 505px;min-width: 325px;" > 
             <section> 
               <a target="_blank" 
               title="@ridendry" 
@@ -308,7 +308,8 @@
       </div>
     </section>
 
-    <!-- Contact Us 
+    <!-- 
+    Contact Us
     <section id="contact" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">Contact Us</h2>
@@ -367,7 +368,7 @@
           </a>
           <a
             class="footer-instagram mx-2"
-            href="https://www.instagram.com/ridendry__tm/"
+            href="https://www.instagram.com/ridendry_tm/#"
           >
             <img
               src="images/Instagram_Glyph_Gradient.svg"
