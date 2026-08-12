@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host = $config['smtp_host']
+        $mail->Host = $config['smtp_host'];
         $mail->SMTPAuth = true;
         $mail->Username = $config['smtp_user'];
         $mail->Password = $config['smtp_pass'];
@@ -32,10 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = "NEW CONTACT FROM CONTACT";
         $mail->Body = "name: $name\nEmail: $email\nMessage:\n$message";
         $mail->send();
-        echo "<alert>Message sent</alert>";
+        echo "Message sent";
     } catch (Exception $e) {
         http_response_code(500);
-        echo "Mailer Error: " . $mail->ErrorInfo;
+        echo "Unable to send message.";
     }
 }
 ?>
